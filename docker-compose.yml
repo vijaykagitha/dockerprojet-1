@@ -1,0 +1,18 @@
+version: '3'
+services:
+  movies:
+    image: vijay3518/moviesrepopaytm:latest
+    ports:
+      - "80:80"
+  train:
+    image: vijay3518/trainrepopaytm:latest
+    ports:
+      - "81:80"
+  dth:
+    image: vijay3518/dthrepopaytm:latest
+    ports:
+      - "82:80"
+  recharge:
+    image: 
+    ports:vijay3518/rechargerepopaytm:latest
+      - "83:80"
