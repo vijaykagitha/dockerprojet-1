@@ -22,7 +22,7 @@ services:
       replicas: 3
 
   recharge:
-    image: vijay3518/dthrepopaytm:latest
+    image: vijay3518/rechargerepopaytm:latest
     ports:
       - "83:80"
     deploy:
